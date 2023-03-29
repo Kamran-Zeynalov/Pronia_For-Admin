@@ -28,9 +28,10 @@ namespace P230_Pronia.Areas.ProniaAdminPanel.Controllers
         [AutoValidateAntiforgeryToken]
         public IActionResult Create(Category newCategory)
         {
-            if (!ModelState.IsValid)
+            var ErrorMessage = _context.Categories.FirstOrDefault(c => c.Name == newCategory.Name);
+            if (!ModelState.IsValid && ErrorMessage != null)
             {
-                ModelState.AddModelError("Name", "You cannot duplicate category name");
+                ModelState.AddModelError("Name", $"This '{ErrorMessage.Name}' Category Already Exist");
                 return View();
             }
             _context.Categories.Add(newCategory);
@@ -57,7 +58,7 @@ namespace P230_Pronia.Areas.ProniaAdminPanel.Controllers
             var duplicate = _context.Categories.Any(c => c.Name == edited.Name);
             if (duplicate)
             {
-                ModelState.AddModelError("Name", "तुस श्रेणी दे नांऽ गी डुप्लिकेट नेईं करी सकदे");
+                ModelState.AddModelError("Name", $"This '{edited.Name}' category is now available");
                 return View();
             }
             _context.SaveChanges();

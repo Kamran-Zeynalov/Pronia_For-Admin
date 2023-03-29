@@ -40,6 +40,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/Tag/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/Tag/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/Tag/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/Tag/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/Tag/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xUYWdcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/99450/Downloads/P230_Pronia-master/P230_Pronia-master/P230_Pronia/Areas/ProniaAdminPanel/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvbmlhQWRtaW5QYW5lbFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
