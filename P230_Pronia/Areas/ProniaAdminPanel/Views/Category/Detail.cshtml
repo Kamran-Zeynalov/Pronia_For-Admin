@@ -1,0 +1,24 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detail</h1>
+
+<div>
+    <h4>Category</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            <h4 style="color:deeppink">@Html.DisplayNameFor(model => model.Name)</h4>
+        </dt>
+        <dd class = "col-sm-10">
+            <h4 style="color:deeppink">@Html.DisplayFor(model => model.Name)</h4>
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" style="color:deeppink">Edit</a> |
+    <a asp-action="Index" style="color:deeppink">Back to List</a>
+</div>
